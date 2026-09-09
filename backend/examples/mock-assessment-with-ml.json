@@ -1,0 +1,31 @@
+{
+  "name": "Kharadi Transit Hub",
+  "type": "Infrastructure",
+  "organization": "Pune Metropolitan Region Development Authority",
+  "description": "Transit-oriented development used to test supplied model output and deterministic scoring.",
+  "location": "Kharadi, Pune",
+  "coordinates": { "lat": 18.5515, "lon": 73.9475 },
+  "bufferM": 500,
+  "builtUpAreaSqm": 32000,
+  "materials": {
+    "concrete_ready_mix": 24000000,
+    "steel_reinforcement": 3100000,
+    "brick": 1800000,
+    "glass": 240000,
+    "aluminium": 70000
+  },
+  "mlOutput": {
+    "project_location": { "lat": 18.5515, "lon": 73.9475, "buffer_m": 500 },
+    "landcover": {
+      "vegetation_pct": 24.8,
+      "impervious_pct": 71.0,
+      "water_pct": 4.2
+    },
+    "ndvi_mean": 0.31,
+    "ndbi_mean": 0.62,
+    "ndwi_mean": 0.08,
+    "lst_celsius_mean": 34.7,
+    "slope_deg_mean": 3.8,
+    "elevation_m_mean": 562
+  }
+}

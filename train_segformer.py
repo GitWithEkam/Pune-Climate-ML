@@ -1,5 +1,17 @@
-import ee
-import geemap
+import importlib
+
+try:
+    ee = importlib.import_module('ee')
+except ModuleNotFoundError as exc:
+    raise ModuleNotFoundError(
+        "The Earth Engine API is required. Install it with: pip install earthengine-api"
+    ) from exc
+try:
+    geemap = importlib.import_module('geemap')
+except ModuleNotFoundError as exc:
+    raise ModuleNotFoundError(
+        "The geemap package is required. Install it with: pip install geemap"
+    ) from exc
 import numpy as np
 import torch
 import torch.nn as nn

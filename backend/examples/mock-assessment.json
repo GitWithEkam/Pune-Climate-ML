@@ -1,0 +1,17 @@
+{
+  "name": "Baner Urban Development",
+  "type": "Mixed-use development",
+  "organization": "Pune Municipal Corporation",
+  "description": "A mixed-use development with housing, retail space and public landscaping.",
+  "location": "Baner, Pune",
+  "coordinates": { "lat": 18.559, "lon": 73.7868 },
+  "bufferM": 500,
+  "builtUpAreaSqm": 25000,
+  "materials": {
+    "concrete_ready_mix": 18000000,
+    "steel_reinforcement": 2200000,
+    "brick": 3500000,
+    "glass": 180000,
+    "aluminium": 45000
+  }
+}
